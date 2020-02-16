@@ -2,3 +2,6 @@ baseURL = "https://python.barcelona/"
 languageCode = "en-us"
 title = "Python Barcelona"
 theme = "community"
+
+[params]
+  logo = "/images/logo.png"

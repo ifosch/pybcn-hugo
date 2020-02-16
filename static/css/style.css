@@ -1,0 +1,61 @@
+nav {
+    height: 150px;
+}
+
+.navbar-light .navbar-brand {
+    font-family: Cantarell;
+    font-size: 6em;
+    font-weight: bold;
+    text-transform: lowercase;
+    color: #006e9f;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #ffd732;
+}
+
+nav a.navbar-brand img {
+    height: 150px;
+}
+
+@media (min-width: 580px) and (max-width: 992px) {
+    nav {
+        height: 50%;
+    }
+
+    .navbar-light .navbar-brand {
+        font-size: 3em;
+    }
+
+    nav a.navbar-brand img {
+        height: 75px;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 580px) {
+    nav {
+        height: 35%;
+    }
+
+    .navbar-light .navbar-brand {
+        font-size: 2.75em;
+    }
+
+    nav a.navbar-brand img {
+        height: 50px;
+    }
+}
+
+@media (max-width: 520px) {
+    nav {
+        height: 20%;
+    }
+
+    .navbar-light .navbar-brand {
+        font-size: 1.5em;
+    }
+
+    nav a.navbar-brand img {
+        height: 25px;
+    }
+}
