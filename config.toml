@@ -5,3 +5,185 @@ theme = "community"
 
 [params]
   logo = "/images/logo.png"
+
+[menu]
+  [[menu.main]]
+    identifier = "pybcn-association"
+    name = "PyBCN Association"
+    url = "/association/"
+    weight = 1000
+
+  [[menu.main]]
+    parent = "pybcn-association"
+    identifier = "information"
+    name = "Information"
+    url = "/association/information/"
+    weight = 1100
+
+  [[menu.main]]
+    parent = "pybcn-association"
+    identifier = "collaboration"
+    name = "Collaboration"
+    url = "/association/collaboration/"
+    weight = 1200
+
+  [[menu.main]]
+    parent = "pybcn-association"
+    identifier = "code-of-conduct"
+    name = "Code of conduct"
+    url = "/association/code-of-conduct/"
+    weight = 1300
+
+  [[menu.main]]
+    identifier = "pyladiesbcn"
+    name = "PyLadiesBCN"
+    url = "/pyladiesbcn/"
+    weight = 2000
+
+  [[menu.main]]
+    parent = "pyladiesbcn"
+    identifier = "pyladiesbcn-meetups"
+    name = "Meetups"
+    url = "/events/pyladiesbcn/"
+    weight = 2100
+
+  [[menu.main]]
+    parent = "pyladiesbcn"
+    identifier = "pyladiesbcn-organizers"
+    name = "Organizers"
+    url = "/pyladiesbcn/organizers/"
+    weight = 2200
+
+  [[menu.main]]
+    parent = "pyladiesbcn"
+    identifier = "pyladiesbcn-speakers"
+    name = "Speakers"
+    url = "/pyladiesbcn/speakers/"
+    weight = 2300
+
+  [[menu.main]]
+    parent = "pyladiesbcn"
+    identifier = "pyladiesbcn-sponsors"
+    name = "Sponsors"
+    url = "/pyladiesbcn/sponsors/"
+    weight = 2400
+
+  [[menu.main]]
+    parent = "pyladiesbcn"
+    identifier = "pyladiesbcn-job-offers"
+    name = "Job offers"
+    url = "/pyladiesbcn/job-offers/"
+    weight = 2500
+
+  [[menu.main]]
+    parent = "pyladiesbcn"
+    identifier = "pyladiesbcn-contact"
+    name = "Contact"
+    url = "/pyladiesbcn/contact/"
+    weight = 2600
+
+  [[menu.main]]
+    parent = "pyladiesbcn"
+    identifier = "pyladiesbcn-about"
+    name = "About"
+    url = "/pyladiesbcn/about/"
+    weight = 2700
+
+  [[menu.main]]
+    identifier = "news"
+    name = "News"
+    url = "/news/"
+    weight = 3000
+
+  [[menu.main]]
+    identifier = "monthly-events"
+    name = "Monthly events"
+    url = "/monthly-events/"
+    weight = 4000
+
+  [[menu.main]]
+    parent = "monthly-events"
+    identifier = "pybcn-meetups"
+    name = "PyBCN meetups"
+    url = "/events/pybcn-meetups"
+    weight = 4100
+
+  [[menu.main]]
+    parent = "monthly-events"
+    identifier = "pyladiesbcn-meetups-2"
+    name = "PyLadiesBCN Meetups"
+    url = "/events/pyladiesbcn/"
+    weight = 4100
+
+  [[menu.main]]
+    parent = "monthly-events"
+    identifier = "practice-sessions"
+    name = "Practice Sessions"
+    url = "/events/practice-sessions"
+    weight = 4200
+
+  [[menu.main]]
+    identifier = "pyday"
+    name = "PyDay BCN"
+    url = "/events/pyday-bcn/"
+    weight = 5000
+
+  [[menu.main]]
+    parent = "pyday"
+    identifier = "pyday-2020"
+    name = "PyDay BCN 2020"
+    url = "/events/pyday-bcn-2020/"
+    weight = 5100
+
+  [[menu.main]]
+    parent = "pyday"
+    identifier = "pyday-2019"
+    name = "PyDay BCN 2019"
+    url = "/events/pyday-bcn-2019/"
+    weight = 5200
+
+  [[menu.main]]
+    parent = "pyday"
+    identifier = "pyday-2018"
+    name = "PyDay BCN 2018"
+    url = "/events/pyday-bcn-2018/"
+    weight = 5300
+
+  [[menu.main]]
+    parent = "pyday"
+    identifier = "pyday-2016"
+    name = "PyDay BCN 2016"
+    url = "/evetns/pyday-bcn-2016/"
+    weight = 5400
+
+  [[menu.main]]
+    identifier = "other-events"
+    name = "Other events"
+    url = "/other-events/"
+    weight = 6000
+
+  [[menu.main]]
+    parent = "other-events"
+    identifier = "pydata-bcn-2017"
+    name = "PyData BCN 2017"
+    url = "/events/pydata-bcn-2017"
+    weight = 6100
+
+  [[menu.main]]
+    parent = "other-events"
+    identifier = "hacktoberfest-2018"
+    name = "Hacktoberfest 2018"
+    url = "/events/hacktoberfest-2018"
+    weight = 6200
+
+  [[menu.main]]
+    identifier = "sponsors"
+    name = "Sponsors"
+    url = "/sponsors/"
+    weight = 7000
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 8000
