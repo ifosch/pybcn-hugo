@@ -2,10 +2,9 @@ baseURL = "https://www.natx.cat/pybcn-hugo/"
 languageCode = "en-us"
 title = "Python Barcelona"
 theme = "community"
-relativeURLs = true
 
 [params]
-  logo = "/images/logo.png"
+  logo = "./images/logo.png"
 
 [menu]
   [[menu.main]]
