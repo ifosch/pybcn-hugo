@@ -1,0 +1,3 @@
+[submodule "themes/community"]
+	path = themes/community
+	url = https://github.com/ifosch/hugo-theme-community
